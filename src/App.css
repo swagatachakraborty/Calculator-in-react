@@ -19,6 +19,12 @@
   border: 1px solid black;
   height: 15%;
   width: 99.4%;
+  line-height: 250%;
+
+  text-align: right;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btns {
