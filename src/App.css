@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  height: 500px;
+  width: 500px;
+
+  border: 1px solid black;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.display {
+  border: 1px solid black;
+  height: 15%;
+  width: 99.4%;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  height: 83%;
+  width: 100%;
+}
+
+.btn {
+  border: 1px solid black;
+
+  height: 15%;
+  width: 32.4%;
+  line-height: 250%;
+
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
